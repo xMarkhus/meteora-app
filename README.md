@@ -66,3 +66,31 @@ O Meteora é um e-commerce fictício de moda em constante desenvolvimento. Este 
 O design e protótipo deste projeto podem ser encontrados [aqui](https://www.figma.com/file/R5ATrWK1nC44Eyeo6XZXlr/Meteora---Context-API?node-id=2386%3A2430&mode=dev).
 
 Aproveite o desenvolvimento e aprimoramento do Meteora!
+
+# 🛍️ Meteora - Context API e Gerenciamento de Estados Globais
+
+Bem-vindo ao **Meteora**! 🚀  
+Este projeto foi desenvolvido para demonstrar como transformar uma aplicação com problemas de **Prop Drilling** em uma aplicação **escalável**, utilizando a **Context API** do React.  
+
+Aqui você encontrará uma aplicação funcional de carrinho de compras, estruturada com boas práticas de desenvolvimento front-end.
+
+---
+
+## 🛠️ Funcionalidades Desenvolvidas
+
+### 🔗 Gerenciamento de Estados Globais com Context API
+- Criamos um contexto para gerenciar os estados globais da aplicação, cobrindo:
+  - **Página Home**: Exibe os produtos disponíveis.
+  - **Carrinho Suspenso**: Mostra os produtos adicionados ao carrinho, com opções de exclusão.
+
+### 🪝 Hooks Customizados
+- Encapsulamos lógicas complexas em hooks reutilizáveis, incluindo:
+  - Adicionar produtos ao carrinho.
+  - Remover produtos do carrinho.
+
+### 🔄 Reducer
+- Implementamos a função `carrinhoReducer()` para:
+  - Gerenciar as operações do carrinho.
+  - Atualizar os estados globais com base em ações específicas.
+
+---
